@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Clínica de Estética de Alto Padrão. Resultados excepcionais e atendimento premium.">
+    <title>Dra. Lia Caldas | Estética Avançada</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Dra. Lia Caldas" width="180" height="40" fetchpriority="high">
+            </a>
+
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#tratamentos">Procedimentos</a></li>
+                    <li><a href="#sobre">A Especialista</a></li>
+                    <li><a href="#resultados">Resultados</a></li>
+                    <li><a href="#contato" class="nav-cta">Agendar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <img src="img/img-hero.webp" alt="Ambiente da Clínica" class="hero-bg" fetchpriority="high">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <h1>Dra. Lia Caldas</h1>
+                <p>Estética Avançada & Alta Performance</p>
+                <a href="https://wa.me/5500000000000" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    Agendar Avaliação
+                </a>
+            </div>
+        </section>
+
+        <section id="tratamentos" class="services">
+            <div class="section-header">
+                <h2>Nossa Especialidade</h2>
+                <p>Protocolos exclusivos para resultados naturais e duradouros.</p>
+            </div>
+
+            <div class="services-wrapper">
+
+                <button class="scroll-btn scroll-prev" aria-label="Ver serviços anteriores">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+
+                <div class="services-scroller" id="servicesScroller">
+                    <article class="service-card">
+                        <img src="img/img-servicos-01.webp" alt="Harmonização Facial" class="service-bg" loading="lazy">
+                        <div class="service-overlay"></div>
+                        <div class="service-info">
+                            <h3>Harmonização Facial</h3>
+                            <p>Realce seus traços com precisão milimétrica e elegância.</p>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="img/img-servicos-02.webp" alt="Toxina Botulínica" class="service-bg" loading="lazy">
+                        <div class="service-overlay"></div>
+                        <div class="service-info">
+                            <h3>Toxina Botulínica</h3>
+                            <p>Prevenção e suavização de linhas de expressão.</p>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="img/img-servicos-03.webp" alt="Bioestimuladores" class="service-bg" loading="lazy">
+                        <div class="service-overlay"></div>
+                        <div class="service-info">
+                            <h3>Bioestimuladores</h3>
+                            <p>Estímulo profundo de colágeno para firmeza da pele.</p>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="img/img-servicos-04.webp" alt="Tecnologia a Laser" class="service-bg" loading="lazy">
+                        <div class="service-overlay"></div>
+                        <div class="service-info">
+                            <h3>Tecnologias a Laser</h3>
+                            <p>Tratamentos de ponta para textura e manchas.</p>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="img/img-servicos-05.webp" alt="Preenchimento Labial" class="service-bg"
+                            loading="lazy">
+                        <div class="service-overlay"></div>
+                        <div class="service-info">
+                            <h3>Preenchimento Labial</h3>
+                            <p>Volume e contorno na medida certa para você.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <button class="scroll-btn scroll-next" aria-label="Ver próximos serviços">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+
+            </div>
+        </section>
+        <section id="detalhes" class="features-split">
+
+            <article class="split-row">
+                <div class="split-image reveal-left">
+                    <img src="img/dra-lia-tratamentos.webp" alt="Dra. Lia Caldas realizando avaliação facial"
+                        loading="lazy">
+                </div>
+                <div class="split-content reveal-right delay-100">
+                    <span class="badge">Tratamentos Exclusivos</span>
+                    <h2>A arte de realçar a sua beleza natural</h2>
+                    <p>Desenvolvemos protocolos de tratamentos personalizados que respeitam a sua anatomia e a sua
+                        história. O nosso foco é entregar resultados elegantes, prevenindo o envelhecimento e destacando
+                        o que você tem de melhor, sem exageros.</p>
+
+                    <a href="https://wa.me/5500000000000" class="btn-whatsapp btn-outline" target="_blank"
+                        rel="noopener noreferrer">
+                        Falar com Especialista
+                        <svg class="btn-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="split-row reverse">
+                <div class="split-image reveal-right">
+                    <img src="img/procedimentos-tecnologia.webp" alt="Equipamentos de alta tecnologia estética"
+                        loading="lazy">
+                </div>
+                <div class="split-content reveal-left delay-100">
+                    <span class="badge">Procedimentos Avançados</span>
+                    <h2>Tecnologia de ponta e precisão milimétrica</h2>
+                    <p>Aliamos o conhecimento técnico aprofundado com as melhores tecnologias do mercado mundial.
+                        Procedimentos seguros, rápidos e com tempo de recuperação otimizado para que você volte à sua
+                        rotina sentindo-se renovada.</p>
+
+                    <a href="https://wa.me/5500000000000" class="btn-whatsapp" target="_blank"
+                        rel="noopener noreferrer">
+                        Agendar Procedimento
+                        <svg class="btn-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"
+                                fill="currentColor" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+        </section>
+        <section id="sobre" class="about-section">
+            <div class="about-container">
+
+                <div class="about-image-wrapper reveal-up">
+                    <div class="about-image-frame">
+                        <img src="img/dra.webp" alt="Dra. Lia Caldas - Especialista em Estética Avançada"
+                            loading="lazy">
+                    </div>
+
+                    <div class="experience-badge reveal-left delay-200">
+                        <span class="years">+10</span>
+                        <span class="text">Anos de<br>Experiência</span>
+                    </div>
+                </div>
+
+                <div class="about-content reveal-right delay-100">
+                    <span class="badge">A Especialista</span>
+                    <h2>Dra. Lia Caldas</h2>
+                    <h3 class="subtitle">Elevando a estética à categoria de arte.</h3>
+
+                    <p>Com uma trajetória dedicada à anatomia e ao visagismo facial, transformo o conhecimento
+                        científico rigoroso em resultados que celebram a sua individualidade, sempre priorizando a
+                        naturalidade e a elegância.</p>
+
+                    <p>A minha filosofia não é mudar quem você é, mas resgatar a sua melhor versão através de protocolos
+                        seguros e de altíssima precisão. Cada rosto conta uma história, e o meu papel é iluminá-la para
+                        que você reflita a sua melhor fase.</p>
+
+                    <div class="signature">
+                        <span>Diretora Técnica | Registro: 000000-PR</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="autocuidado" class="care-section">
+            <div class="care-container">
+
+                <div class="care-image-wrapper reveal-up">
+                    <img src="img/autocuidado-ritual.webp"
+                        alt="Mulher relaxada recebendo toque suave na pele, iluminada por luz natural" loading="lazy">
+                </div>
+
+                <div class="care-content reveal-right delay-200">
+                    <span class="badge">Seu Ritual</span>
+                    <h2>O seu maior investimento é você.</h2>
+
+                    <p>O autocuidado não é um luxo, é uma necessidade básica para nutrir a sua essência. Reservar um
+                        tempo para si mesma é o ato mais poderoso de amor-próprio que você pode praticar.</p>
+
+                    <p>Nossa clínica foi desenhada para ser o seu refúgio, onde cada protocolo é um convite para você
+                        reconectar-se com a sua beleza e recuperar a sua confiança mais profunda. Permita-se esse
+                        momento.</p>
+
+                    <a href="https://wa.me/5500000000000" class="btn-whatsapp" target="_blank"
+                        rel="noopener noreferrer">
+                        Agendar Meu Momento
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                                fill="currentColor" />
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section id="resultados" class="testimonials">
+            <div class="section-header reveal-up">
+                <span class="badge">Nossa Assinatura</span>
+                <h2>Resultados Reais</h2>
+                <p>A naturalidade e a elegância que transformam a autoestima das nossas pacientes.</p>
+            </div>
+
+            <div class="testimonials-wrapper reveal-up delay-100">
+
+                <button class="scroll-btn scroll-prev prev-test" aria-label="Ver resultados anteriores">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+
+                <div class="testimonials-scroller" id="testimonialsScroller">
+
+                    <article class="test-card">
+                        <div class="test-image">
+                            <img src="img/resultado-01.webp" alt="Antes e Depois de Harmonização Facial" loading="lazy">
+                            <span class="img-badge">Harmonização Facial</span>
+                        </div>
+                        <div class="test-content">
+                            <svg class="quote-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                            <p>"A Dra. Lia conseguiu exatamente o que eu queria: melhorar meus traços sem que ninguém
+                                percebesse que fiz um procedimento. O resultado ficou incrivelmente natural. Minha
+                                autoestima é outra!"</p>
+                            <div class="test-author">
+                                <strong>Camila S.</strong>
+                                <span>Empresária</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="test-card">
+                        <div class="test-image">
+                            <img src="img/resultado-02.webp" alt="Antes e Depois de Bioestimuladores" loading="lazy">
+                            <span class="img-badge">Bioestimulador + Botox</span>
+                        </div>
+                        <div class="test-content">
+                            <svg class="quote-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                            <p>"O ambiente, o atendimento e, principalmente, o cuidado milimétrico. Senti muita
+                                segurança desde a avaliação. Voltei a me reconhecer no espelho e a pele tem um viço que
+                                eu não via há anos."</p>
+                            <div class="test-author">
+                                <strong>Mariana F.</strong>
+                                <span>Advogada</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="test-card">
+                        <div class="test-image">
+                            <img src="img/resultado-03.webp" alt="Antes e Depois de Preenchimento Labial"
+                                loading="lazy">
+                            <span class="img-badge">Preenchimento Labial</span>
+                        </div>
+                        <div class="test-content">
+                            <svg class="quote-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                            <p>"Eu tinha muito medo de ficar com um bico artificial. A Dra. Lia fez um trabalho de
+                                artista. O contorno ficou perfeito e o volume na medida certa. Indico de olhos
+                                fechados!"</p>
+                            <div class="test-author">
+                                <strong>Juliana R.</strong>
+                                <span>Arquiteta</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <button class="scroll-btn scroll-next next-test" aria-label="Ver próximos resultados">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+
+            </div>
+        </section>
+        <section id="agendar-final" class="final-cta reveal-up">
+            <div class="final-cta-container">
+
+                <span class="badge">Sua Transformação Começa Aqui</span>
+                <h2>Pronta para viver a sua melhor versão?</h2>
+
+                <p>Agende sua avaliação exclusiva com a Dra. Lia Caldas e descubra o protocolo ideal para realçar a sua
+                    beleza natural com elegância e segurança. As vagas são limitadas para garantir um atendimento
+                    verdadeiramente personalizado.</p>
+
+                <div class="cta-wrapper">
+                    <a href="https://wa.me/5500000000000" class="btn-whatsapp btn-glow" target="_blank"
+                        rel="noopener noreferrer">
+                        Quero Agendar Minha Avaliação
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        </svg>
+                    </a>
+                </div>
+
+                <span class="micro-text">*Atendimento com hora marcada em ambiente privativo.</span>
+
+            </div>
+        </section>
+        <section id="contato" class="contact-section">
+            <div class="contact-container">
+
+                <div class="contact-info reveal-left">
+                    <span class="badge">Atendimento Premium</span>
+                    <h2>Venha nos visitar.</h2>
+                    <p>Agende sua consulta ou faça-nos uma visita. Estamos localizados em um espaço exclusivo, pensado
+                        para o seu máximo conforto e privacidade.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="label">Endereço</span>
+                            <p>Av. das Estrelas, 1000 - Sala 402<br>Bairro Nobre, Cidade - UF</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="label">Contato</span>
+                            <p>+55 (00) 90000-0000<br>contato@liacaldasestetica.com.br</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <span class="label">Acompanhe nosso trabalho</span>
+                        <div class="social-grid">
+                            <a href="#" class="social-btn" aria-label="Instagram">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-btn" aria-label="TikTok">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-btn" aria-label="YouTube">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z">
+                                    </path>
+                                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-btn" aria-label="LinkedIn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-map reveal-right delay-100">
+                    <div class="map-wrapper">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.090673431608!2d-46.66680658447551!3d-23.565181867623145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ceb1eb771f%3A0xe904f6a669744da1!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1680000000000!5m2!1spt-BR!2sbr"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" title="Localização da Clínica"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div class="floating-widgets">
+
+            <a href="https://seu-site-frontlab.com.br" class="float-btn float-creator" target="_blank"
+                rel="noopener noreferrer" aria-label="Desenvolvido por Frontlab Studio">
+                <div class="float-avatar">
+                    <img src="img/logo-frontlabs.webp" alt="Frontlab Studio" loading="lazy">
+                </div>
+                <span class="float-text">by Frontlab Studio</span>
+            </a>
+
+            <a href="https://wa.me/5500000000000" class="float-btn float-clinic" target="_blank"
+                rel="noopener noreferrer" aria-label="Falar com a Dra. Lia Caldas">
+                <span class="float-text">Falar com a Clínica</span>
+                <div class="float-avatar">
+                    <span class="online-dot"></span>
+                    <img src="img/dra.webp" alt="WhatsApp Dra. Lia" loading="lazy">
+                </div>
+            </a>
+
+        </div>
+        <footer class="footer">
+            <div class="footer-container">
+
+                <div class="footer-brand reveal-up">
+                    <a href="#hero" class="footer-logo" aria-label="Voltar ao topo">
+                        <img src="img/logo.png" alt="Dra. Lia Caldas Estética" width="180" height="40" loading="lazy">
+                    </a>
+                    <p>Estética avançada e protocolos exclusivos para realçar a sua beleza com naturalidade, precisão e
+                        elegância.</p>
+                </div>
+
+                <div class="footer-links reveal-up delay-100">
+                    <h3>Navegação</h3>
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#tratamentos">Procedimentos</a></li>
+                        <li><a href="#sobre">A Especialista</a></li>
+                        <li><a href="#resultados">Resultados</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links reveal-up delay-200">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="legal/privacidade.html">Política de Privacidade</a></li>
+                        <li><a href="legal/termos.html">Termos de Uso</a></li>
+                        <li><a href="legal/aviso-legal.html">Aviso Legal</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom reveal-up delay-200">
+                <p>&copy; 2026 Dra. Lia Caldas. Todos os direitos reservados.</p>
+                <p>Engineered by <a href="https://frontlabstudio.com.br/" target="_blank"
+                        class="frontlab-signature">Frontlab Studio<span class="status-dot"></span></a></p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script/script.js" defer></script>
+</body>
+
+</html>
